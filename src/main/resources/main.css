@@ -1,0 +1,25 @@
+button {
+    all: unset;
+    font-family: var(--font-sans);
+    font-size: var(--scale-1);
+    font-weight: var(--font-medium);
+    line-height: var(--line-none);
+    padding: var(--size-3) var(--size-5);
+    background: var(--color-blue);
+    border-radius: var(--radius-sm);
+    color: white;
+}
+
+.sigil {
+    width: var(--width-sm);
+    height: var(--width-sm);
+    border: var(--color-blue) var(--size-px) solid;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--size-4);
+}
+
