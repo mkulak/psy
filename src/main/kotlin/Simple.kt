@@ -1,5 +1,9 @@
-fun main() {
-    console.log("Hello, ${greet()}")
-}
+import kotlinx.browser.document
+import kotlinx.browser.window
 
-fun greet() = "world"
+fun main() {
+    window.onload = { event ->
+        document.getElementById("root")?.innerHTML = "<h1>TADA</h1>"
+        Unit
+    }
+}
